@@ -47,6 +47,8 @@ public class Demo02MethodDefine {
     public static void main(String[] args) {
         // 单独调用
         sum(10, 20);
+        //int a = sum(11,12);
+        //System.out.println(a);
         System.out.println("===========");
 
         // 打印调用
