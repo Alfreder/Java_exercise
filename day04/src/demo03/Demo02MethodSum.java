@@ -7,7 +7,8 @@ package demo03;
 public class Demo02MethodSum {
 
     public static void main(String[] args) {
-        System.out.println("结果是：" + getSum());
+
+        System.out.println("结果是：" + getSum(100));
     }
 
     /*
@@ -16,9 +17,9 @@ public class Demo02MethodSum {
     方法名称：getSum
     参数列表：数据范围已经确定，是固定的，所以不需要告诉我任何条件，不需要参数
      */
-    public static int getSum() {
+    public static int getSum(int n) {
         int sum = 0;
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= n; i++) {
             sum += i;
         }
         return sum;
