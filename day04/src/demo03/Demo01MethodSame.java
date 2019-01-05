@@ -23,7 +23,8 @@ public class Demo01MethodSame {
             same = true;
         } else {
             same = false;
-        }*/
+        }
+        return same;*/
 
         // boolean same = a == b ? true : false;
 
