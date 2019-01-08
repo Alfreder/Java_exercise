@@ -24,10 +24,12 @@ public class DemoMain {
         computer.powerOff();
         System.out.println("==================");
 
+        /*
         method(10.0); // 正确写法，double --> double
         method(20); // 正确写法，int --> double
         int a = 30;
         method(a); // 正确写法，int --> double
+        */
     }
 
     public static void method(double num) {
