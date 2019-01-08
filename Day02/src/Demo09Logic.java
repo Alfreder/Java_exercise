@@ -1,19 +1,19 @@
 /*
-ä¸Žï¼ˆå¹¶ä¸”ï¼‰	&&	å…¨éƒ½æ˜¯trueï¼Œæ‰æ˜¯trueï¼›å¦åˆ™å°±æ˜¯false
-æˆ–ï¼ˆæˆ–è€…ï¼‰	||	è‡³å°‘ä¸€ä¸ªæ˜¯trueï¼Œå°±æ˜¯trueï¼›å…¨éƒ½æ˜¯falseï¼Œæ‰æ˜¯false
-éžï¼ˆå–åï¼‰	!	æœ¬æ¥æ˜¯trueï¼Œå˜æˆfalseï¼›æœ¬æ¥æ˜¯falseï¼Œå˜æˆtrue
+Óë£¨²¢ÇÒ£©	&&	È«¶¼ÊÇtrue£¬²ÅÊÇtrue£»·ñÔò¾ÍÊÇfalse
+»ò£¨»òÕß£©	||	ÖÁÉÙÒ»¸öÊÇtrue£¬¾ÍÊÇtrue£»È«¶¼ÊÇfalse£¬²ÅÊÇfalse
+·Ç£¨È¡·´£©	!	±¾À´ÊÇtrue£¬±ä³Éfalse£»±¾À´ÊÇfalse£¬±ä³Étrue
 
-ä¸Žâ€œ&&â€ï¼Œæˆ–â€œ||â€ï¼Œå…·æœ‰çŸ­è·¯æ•ˆæžœï¼šå¦‚æžœæ ¹æ®å·¦è¾¹å·²ç»å¯ä»¥åˆ¤æ–­å¾—åˆ°æœ€ç»ˆç»“æžœï¼Œé‚£ä¹ˆå³è¾¹çš„ä»£ç å°†ä¸å†æ‰§è¡Œï¼Œä»Žè€ŒèŠ‚çœä¸€å®šçš„æ€§èƒ½ã€‚
+Óë¡°&&¡±£¬»ò¡°||¡±£¬¾ßÓÐ¶ÌÂ·Ð§¹û£ºÈç¹û¸ù¾Ý×ó±ßÒÑ¾­¿ÉÒÔÅÐ¶ÏµÃµ½×îÖÕ½á¹û£¬ÄÇÃ´ÓÒ±ßµÄ´úÂë½«²»ÔÙÖ´ÐÐ£¬´Ó¶ø½ÚÊ¡Ò»¶¨µÄÐÔÄÜ¡£
 
-æ³¨æ„äº‹é¡¹ï¼š
-1. é€»è¾‘è¿ç®—ç¬¦åªèƒ½ç”¨äºŽbooleanå€¼ã€‚
-2. ä¸Žã€æˆ–éœ€è¦å·¦å³å„è‡ªæœ‰ä¸€ä¸ªbooleanå€¼ï¼Œä½†æ˜¯å–ååªè¦æœ‰å”¯ä¸€çš„ä¸€ä¸ªbooleanå€¼å³å¯ã€‚
-3. ä¸Žã€æˆ–ä¸¤ç§è¿ç®—ç¬¦ï¼Œå¦‚æžœæœ‰å¤šä¸ªæ¡ä»¶ï¼Œå¯ä»¥è¿žç»­å†™ã€‚
-ä¸¤ä¸ªæ¡ä»¶ï¼šæ¡ä»¶A && æ¡ä»¶B
-å¤šä¸ªæ¡ä»¶ï¼šæ¡ä»¶A && æ¡ä»¶B && æ¡ä»¶C
+×¢ÒâÊÂÏî£º
+1. Âß¼­ÔËËã·ûÖ»ÄÜÓÃÓÚbooleanÖµ¡£
+2. Óë¡¢»òÐèÒª×óÓÒ¸÷×ÔÓÐÒ»¸öbooleanÖµ£¬µ«ÊÇÈ¡·´Ö»ÒªÓÐÎ¨Ò»µÄÒ»¸öbooleanÖµ¼´¿É¡£
+3. Óë¡¢»òÁ½ÖÖÔËËã·û£¬Èç¹ûÓÐ¶à¸öÌõ¼þ£¬¿ÉÒÔÁ¬ÐøÐ´¡£
+Á½¸öÌõ¼þ£ºÌõ¼þA && Ìõ¼þB
+¶à¸öÌõ¼þ£ºÌõ¼þA && Ìõ¼þB && Ìõ¼þC
 
-TIPSï¼š
-å¯¹äºŽ1 < x < 3çš„æƒ…å†µï¼Œåº”è¯¥æ‹†æˆä¸¤ä¸ªéƒ¨åˆ†ï¼Œç„¶åŽä½¿ç”¨ä¸Žè¿ç®—ç¬¦è¿žæŽ¥èµ·æ¥ï¼š
+TIPS£º
+¶ÔÓÚ1 < x < 3µÄÇé¿ö£¬Ó¦¸Ã²ð³ÉÁ½¸ö²¿·Ö£¬È»ºóÊ¹ÓÃÓëÔËËã·ûÁ¬½ÓÆðÀ´£º
 int x = 2;
 1 < x && x < 3
 */

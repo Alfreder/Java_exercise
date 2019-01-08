@@ -1,58 +1,58 @@
 /*
-å®šä¹‰ä¸€ä¸ªæ–¹æ³•çš„æ ¼å¼ï¼š
-public static void æ–¹æ³•åç§°() {
-	æ–¹æ³•ä½“
+¶¨ÒåÒ»¸ö·½·¨µÄ¸ñÊ½£º
+public static void ·½·¨Ãû³Æ() {
+	·½·¨Ìå
 }
 
-æ–¹æ³•åç§°çš„å‘½åè§„åˆ™å’Œå˜é‡ä¸€æ ·ï¼Œä½¿ç”¨å°é©¼å³°ã€‚
-æ–¹æ³•ä½“ï¼šä¹Ÿå°±æ˜¯å¤§æ‹¬å·å½“ä¸­å¯ä»¥åŒ…å«ä»»æ„æ¡è¯­å¥ã€‚
+·½·¨Ãû³ÆµÄÃüÃû¹æÔòºÍ±äÁ¿Ò»Ñù£¬Ê¹ÓÃĞ¡ÍÕ·å¡£
+·½·¨Ìå£ºÒ²¾ÍÊÇ´óÀ¨ºÅµ±ÖĞ¿ÉÒÔ°üº¬ÈÎÒâÌõÓï¾ä¡£
 
-æ³¨æ„äº‹é¡¹ï¼š
-1. æ–¹æ³•å®šä¹‰çš„å…ˆåé¡ºåºæ— æ‰€è°“ã€‚
-2. æ–¹æ³•çš„å®šä¹‰ä¸èƒ½äº§ç”ŸåµŒå¥—åŒ…å«å…³ç³»ã€‚
-3. æ–¹æ³•å®šä¹‰å¥½äº†ä¹‹åï¼Œä¸ä¼šæ‰§è¡Œçš„ã€‚å¦‚æœè¦æƒ³æ‰§è¡Œï¼Œä¸€å®šè¦è¿›è¡Œæ–¹æ³•çš„ã€è°ƒç”¨ã€‘ã€‚
+×¢ÒâÊÂÏî£º
+1. ·½·¨¶¨ÒåµÄÏÈºóË³ĞòÎŞËùÎ½¡£
+2. ·½·¨µÄ¶¨Òå²»ÄÜ²úÉúÇ¶Ì×°üº¬¹ØÏµ¡£
+3. ·½·¨¶¨ÒåºÃÁËÖ®ºó£¬²»»áÖ´ĞĞµÄ¡£Èç¹ûÒªÏëÖ´ĞĞ£¬Ò»¶¨Òª½øĞĞ·½·¨µÄ¡¾µ÷ÓÃ¡¿¡£
 
-å¦‚ä½•è°ƒç”¨æ–¹æ³•ï¼Œæ ¼å¼ï¼š
+ÈçºÎµ÷ÓÃ·½·¨£¬¸ñÊ½£º
 
-æ–¹æ³•åç§°();
+·½·¨Ãû³Æ();
 */
 public class Demo11Method {
 	
 	public static void main(String[] args) {
-		farmer(); // è°ƒç”¨å†œæ°‘çš„æ–¹æ³•
-		seller(); // è°ƒç”¨å°å•†è´©çš„æ–¹æ³•
-		cook(); // è°ƒç”¨å¨å­çš„æ–¹æ³•
-		me(); // è°ƒç”¨æˆ‘è‡ªå·±çš„æ–¹æ³•
+		farmer(); // µ÷ÓÃÅ©ÃñµÄ·½·¨
+		seller(); // µ÷ÓÃĞ¡ÉÌ··µÄ·½·¨
+		cook(); // µ÷ÓÃ³ø×ÓµÄ·½·¨
+		me(); // µ÷ÓÃÎÒ×Ô¼ºµÄ·½·¨
 	}
 	
-	// å¨å­
+	// ³ø×Ó
 	public static void cook() {
-		System.out.println("æ´—èœ");
-		System.out.println("åˆ‡èœ");
-		System.out.println("ç‚’èœ");
-		System.out.println("è£…ç›˜");
+		System.out.println("Ï´²Ë");
+		System.out.println("ÇĞ²Ë");
+		System.out.println("³´²Ë");
+		System.out.println("×°ÅÌ");
 	}
 	
-	// æˆ‘
+	// ÎÒ
 	public static void me() {
-		System.out.println("åƒ");
+		System.out.println("³Ô");
 	}
 	
-	// å°å•†è´©
+	// Ğ¡ÉÌ··
 	public static void seller() {
-		System.out.println("è¿è¾“åˆ°å†œè´¸å¸‚åœº");
-		System.out.println("æŠ¬é«˜ä»·æ ¼");
-		System.out.println("å†å–");
-		System.out.println("å–ç»™å¨å­");
+		System.out.println("ÔËÊäµ½Å©Ã³ÊĞ³¡");
+		System.out.println("Ì§¸ß¼Û¸ñ");
+		System.out.println("ßººÈ");
+		System.out.println("Âô¸ø³ø×Ó");
 	}
 	
-	// å†œæ°‘ä¼¯ä¼¯
+	// Å©Ãñ²®²®
 	public static void farmer() {
-		System.out.println("æ’­ç§");
-		System.out.println("æµ‡æ°´");
-		System.out.println("æ–½è‚¥");
-		System.out.println("é™¤è™«");
-		System.out.println("æ”¶å‰²");
-		System.out.println("å–ç»™å°å•†è´©");
+		System.out.println("²¥ÖÖ");
+		System.out.println("½½Ë®");
+		System.out.println("Ê©·Ê");
+		System.out.println("³ı³æ");
+		System.out.println("ÊÕ¸î");
+		System.out.println("Âô¸øĞ¡ÉÌ··");
 	}
 }

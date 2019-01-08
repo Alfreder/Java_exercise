@@ -1,17 +1,17 @@
 /*
-æ¯”è¾ƒè¿ç®—ç¬¦ï¼š
-å¤§äºŽï¼š		>
-å°äºŽï¼š		<
-å¤§äºŽç­‰äºŽï¼š	>=
-å°äºŽç­‰äºŽï¼š	<=
-ç›¸ç­‰ï¼š		==	ã€ä¸¤ä¸ªç­‰å·è¿žå†™æ‰æ˜¯ç›¸ç­‰ï¼Œä¸€ä¸ªç­‰å·ä»£è¡¨çš„æ˜¯èµ‹å€¼ã€‘
-ä¸ç›¸ç­‰ï¼š	!=
+±È½ÏÔËËã·û£º
+´óÓÚ£º		>
+Ð¡ÓÚ£º		<
+´óÓÚµÈÓÚ£º	>=
+Ð¡ÓÚµÈÓÚ£º	<=
+ÏàµÈ£º		==	¡¾Á½¸öµÈºÅÁ¬Ð´²ÅÊÇÏàµÈ£¬Ò»¸öµÈºÅ´ú±íµÄÊÇ¸³Öµ¡¿
+²»ÏàµÈ£º	!=
 
-æ³¨æ„äº‹é¡¹ï¼š
-1. æ¯”è¾ƒè¿ç®—ç¬¦çš„ç»“æžœä¸€å®šæ˜¯ä¸€ä¸ªbooleanå€¼ï¼Œæˆç«‹å°±æ˜¯trueï¼Œä¸æˆç«‹å°±æ˜¯false
-2. å¦‚æžœè¿›è¡Œå¤šæ¬¡åˆ¤æ–­ï¼Œä¸èƒ½è¿žç€å†™ã€‚
-æ•°å­¦å½“ä¸­çš„å†™æ³•ï¼Œä¾‹å¦‚ï¼š1 < x < 3
-ç¨‹åºå½“ä¸­ã€ä¸å…è®¸ã€‘è¿™ç§å†™æ³•ã€‚
+×¢ÒâÊÂÏî£º
+1. ±È½ÏÔËËã·ûµÄ½á¹ûÒ»¶¨ÊÇÒ»¸öbooleanÖµ£¬³ÉÁ¢¾ÍÊÇtrue£¬²»³ÉÁ¢¾ÍÊÇfalse
+2. Èç¹û½øÐÐ¶à´ÎÅÐ¶Ï£¬²»ÄÜÁ¬×ÅÐ´¡£
+ÊýÑ§µ±ÖÐµÄÐ´·¨£¬ÀýÈç£º1 < x < 3
+³ÌÐòµ±ÖÐ¡¾²»ÔÊÐí¡¿ÕâÖÖÐ´·¨¡£
 */
 public class Demo08Operator {
 	public static void main(String[] args) {
@@ -29,6 +29,6 @@ public class Demo08Operator {
 		System.out.println(20 != 20); // false
 		
 		int x = 2;
-		// System.out.println(1 < x < 3); // é”™è¯¯å†™æ³•ï¼ç¼–è¯‘æŠ¥é”™ï¼ä¸èƒ½è¿žç€å†™ã€‚
+		// System.out.println(1 < x < 3); // ´íÎóÐ´·¨£¡±àÒë±¨´í£¡²»ÄÜÁ¬×ÅÐ´¡£
 	}
 }
