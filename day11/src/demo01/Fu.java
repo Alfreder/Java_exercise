@@ -18,4 +18,5 @@ public abstract class Fu {
 
     public abstract /*final*/ void methodAbs() ;
 
+
 }
